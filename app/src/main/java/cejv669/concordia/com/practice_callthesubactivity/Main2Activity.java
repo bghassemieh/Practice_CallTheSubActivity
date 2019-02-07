@@ -23,8 +23,8 @@ public class Main2Activity extends AppCompatActivity {
                 String textToReturn = e.getText().toString();
                 Intent data = new Intent();
                 data.putExtra("return text", textToReturn);
-             setResult(RESULT_OK,data);
-             Main2Activity.this.finish();
+                setResult(RESULT_OK, data);
+                Main2Activity.this.finish();
             }
         });
     }
